@@ -88,7 +88,7 @@ app.use('/api/messages', messageRoutes)
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("mongodb+srv://zakkibrazil:zmVHb00djiYTppNy@campusconnect.mbp7gze.mongodb.net/");
+    await mongoose.connect("mongodb+srv://mu02uddin:0Do9wZ4sxRMVPq2u@campusconnect.mfjti9y.mongodb.net/");
     console.log('MongoDB connected successfully');
   } catch (error) {
     console.error('MongoDB connection failed:', error.message);
